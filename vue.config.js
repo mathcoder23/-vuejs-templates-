@@ -2,7 +2,7 @@ module.exports = {
     pages: {
         index: {
             // page 的入口
-            entry: 'src/pages/default/main.js',
+            entry: 'src/core/pages/default/main.js',
             // 模板来源
             template: 'public/index.html',
             // 在 dist/index.html 的输出
@@ -21,7 +21,7 @@ module.exports = {
         // subpage: 'src/subpage/main.js'
         page2: {
             // page 的入口
-            entry: 'src/pages/page2/main.js',
+            entry: 'src/core/pages/page2/main.js',
             // 模板来源
             template: 'public/index.html',
             // 在 dist/index.html 的输出
